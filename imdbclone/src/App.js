@@ -1,8 +1,11 @@
 import React from 'react'
+import Home from './Home'
 
 const App = () => {
   return (
-    <div><h1>IMDB movie clone</h1></div>
+    <>
+      <Home></Home>
+    </>
   )
 }
 

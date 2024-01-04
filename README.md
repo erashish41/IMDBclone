@@ -1,3 +1,3 @@
 # IMDBclone
 This is IMDB clone movie website.
-Hi, how are you?
+Hi, how are you?npm sta

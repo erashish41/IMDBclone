@@ -36,8 +36,7 @@ const AppProvider = ({children}) =>{
         getMovies (API_URL);
     }, []);
 
-    return 
-        <AppContext.Provider value= {{ isLoading, isError, movie}}>
+    return <AppContext.Provider value = {{movie, isLoading, isError}}>
             {children}
         </AppContext.Provider>
 };
